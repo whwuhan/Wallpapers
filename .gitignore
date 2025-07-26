@@ -1,0 +1,91 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+# *.exe
+*.out
+*.app
+
+# mac .DS_Store
+*.DS_Store
+
+# VS
+*.ipch
+*.vs
+*.pdb
+*.ilk
+*.txt
+*.idb
+*.log
+*.tlog
+*.recipe
+*.ipdp
+*.iobj
+
+# VSCode
+.vscode
+
+# ignore temp directory
+Temp
+
+# ignore Practices first layer executable programs
+Practices/*
+!Practices/C++
+!Practices/Python
+
+Practices/C++/*
+!Practices/C++/*.cpp
+!Practices/C++/*.h
+
+# CycleInclude directory
+!Practices/C++/CycleInclude
+Practices/C++/CycleInclude/*
+!Practices/C++/CycleInclude/*.cpp
+!Practices/C++/CycleInclude/*.h
+
+# PracticesVS2019 directory
+!Practices/C++/PracticesVS2019
+Practices/C++/PracticesVS2019/**/*.exe
+Practices/C++/PracticesVS2019/**/*.exp
+
+# Practices/C++/TinyRenderer
+!Practices/C++/TinyRenderer
+!Practices/C++/TinyRenderer/obj/**
+Practices/C++/TinyRenderer/**/*.exe
+
+# Practices/C#
+!Practices/C#
+Practices/C#/*
+!Practices/C#/*.cs
+!Practices/C#/PracticesVS2022
+
+# Practices/C#/PracticesVS2022
+Practices/C#/PracticesVS2022/**/*.exe
+
+
+
